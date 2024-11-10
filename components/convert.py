@@ -9,7 +9,7 @@ def convert_section():
     
     conversion_type = st.selectbox(
         "Select Conversion Type",
-        ["Image to PDF", "PDF to Images"]
+        ["Image to PDF", "PDF to Image"]
     )
     
     if conversion_type == "Image to PDF":
