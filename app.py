@@ -19,8 +19,8 @@ def main():
         st.header("Navigation")
         tool = st.selectbox(
             "Select Tool",
-            ["Merge PDFs", "Split PDF", "Extract Text", 
-             "Encrypt/Decrypt", "Convert Format", "Compress PDF"]
+            ["Convert Format", "Split PDF", "Extract Text", 
+             "Encrypt/Decrypt", "Merge PDFs",  "Compress PDF"]
         )
     
     if tool == "Merge PDFs":
