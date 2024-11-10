@@ -9,5 +9,7 @@ services:
       - key: STREAMLIT_SERVER_PORT
         value: "8501"
     ports:
-      - port: 8501
+      - port: 8501  # Yeh port sahi hai
+        protocol: HTTP
+      - port: 8000  # Isko add karna hoga
         protocol: HTTP
