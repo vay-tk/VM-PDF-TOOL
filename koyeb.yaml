@@ -1,0 +1,13 @@
+# koyeb.yaml
+services:
+  - name: pdf-tools
+    image: your-docker-image-name
+    instances: 1
+    cpu: 0.5
+    memory: 512Mi
+    env:
+      - key: STREAMLIT_SERVER_PORT
+        value: "8501"
+    ports:
+      - port: 8501
+        protocol: HTTP
